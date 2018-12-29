@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Mon éditeur</title>
+        <link rel="stylesheet" href="css/stylejQuery.css" />
+    </head>
+	<body>
+        <center>
+            <h1 class="hedha">
+                Editeur de texte 
+             </h1>
+            </center>
+           <button id="g" type="button">G</button>
+           <button id="i" type="button">I</button>
+           <button id="s" type="button">S</button>
+           <button id="lien" type="button">Lien</button>
+           <button id="image" type="button">Image</button>
+           <button id="gauche" type="button">gauche</button>
+           <button id="droite" type="button">droite</button>
+           <button id="center" type="button">center</button>
+           <button id="liste" type="button">Liste à puces</button>
+           <button id="num" type="button">Liste numérotée</button>   
+           <select >
+                <option value="">Taille</option>
+                <option value="h1">Taille 1</option>
+                <option value="h2">Taille 2</option>
+                <option value="h3">Taille 3</option>
+                <option value="h4">taille 4</option> 
+                <option value="h5">Taille 5</option>
+                <option value="h6">Taille 6</option>
+              </select>
+              <div id="editeur" contentEditable></div>
+              <input  type="button" onclick="resultat();" value="Obtenir le HTML" />
+              <br />
+              <input id="resultat">
+      
+      
+        
+            
+    </body>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/mainjQuery.js"></script>
+       
+</html>
